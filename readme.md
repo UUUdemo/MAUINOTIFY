@@ -23,10 +23,17 @@ MauiNotify 是一個使用 [.NET MAUI](https://learn.microsoft.com/dotnet/maui/)
   * `Platforms/` - 各平台專屬的程式碼與設定 (Android, iOS, Windows, MacCatalyst)
   * `Resources/` - 應用程式資源 (圖片、圖示、字型、樣式與啟動畫面)
 
+## 📦 依賴套件與版本 (Plugins & Dependencies)
+
+本專案使用並參考了以下主要的 NuGet 套件： 
+
+* **[Plugin.LocalNotification](https://github.com/thudugala/Plugin.LocalNotification)** (`v14.1.0`) - 用於處理跨平台本機通知的核心套件。
+* **Microsoft.Extensions.Logging.Debug** (`v9.0.8`) - 提供除錯期間的日誌記錄服務。
+* **Microsoft.Maui.Controls** (依照 SDK 版本自動決定) - .NET MAUI 核心 UI 與控制項。
 
 ## 🛠️ 如何建置與執行
 
-### 使用 Visual Studio / VS Code
+### 使用 Visual Studio  
 1. 打開根目錄的 `MauiNotify.sln` 或直接開啟資料夾。
 2. 選擇您想要測試的目標平台（例如：Windows Machine, Android Emulator 等）。
 3. 按下 `F5` 開始偵錯並執行應用程式。
