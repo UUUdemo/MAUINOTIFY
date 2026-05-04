@@ -1,0 +1,15 @@
+# 使用者指定的忽略資料夾
+docs/
+*/bin/
+*/obj/
+
+# Visual Studio / .NET 預設忽略項目
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# macOS
+.DS_Store
