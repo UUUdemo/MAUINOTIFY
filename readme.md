@@ -22,7 +22,7 @@ MauiNotify 是一個使用 [.NET MAUI](https://learn.microsoft.com/dotnet/maui/)
   * `Services/NotificationService.cs` - 通知服務實作邏輯
   * `Platforms/` - 各平台專屬的程式碼與設定 (Android, iOS, Windows, MacCatalyst)
   * `Resources/` - 應用程式資源 (圖片、圖示、字型、樣式與啟動畫面)
-* `docs/` - 專案相關文件
+
 
 ## 🛠️ 如何建置與執行
 
